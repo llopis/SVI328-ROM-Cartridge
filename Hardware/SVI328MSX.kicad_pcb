@@ -106,7 +106,7 @@
     (at 134.46 98.127)
     (path "/00000000-0000-0000-0000-0000617ccf0e")
     (attr through_hole)
-    (fp_text reference "J1" (at 15.748 -7.112) (layer "F.SilkS")
+    (fp_text reference "J1" (at 15.748 -7.112) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9ee8ca7c-91b3-4b41-b352-a97fc2d19346)
     )
@@ -388,7 +388,7 @@
 
   (footprint "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen" (layer "F.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-0000617dcb4a)
-    (at 156.5 54.5)
+    (at 156.5 54.75)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -1536,7 +1536,7 @@
     (tags "Through hole pin header THT 2x15 2.54mm double row")
     (path "/00000000-0000-0000-0000-00006186e31a")
     (attr through_hole)
-    (fp_text reference "J2" (at 1.27 -2.33 90) (layer "F.SilkS")
+    (fp_text reference "J2" (at 1.27 -2.33 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 240963e4-c1c0-4f6f-9b7f-6f10b5305d2e)
     )
@@ -1656,11 +1656,14 @@
   (gr_text "This side must be facing the keyboard." (at 145.25 47) (layer "B.SilkS") (tstamp 1219ce13-a12a-4843-8cfa-ce2ae3439162)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "SVI-328 ROM Cartridge" (at 147.75 46.75) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-0000617e7ee6)
+  (gr_text "SVI-328 ROM Cartridge" (at 143.75 47) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-0000617e7ee6)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (gr_text "Noel Llopis 2021" (at 154.5 49) (layer "F.SilkS") (tstamp a4247e4d-3ccc-4eca-8e9b-dc5f5eb1385b)
+  (gr_text "Noel Llopis 2022" (at 154.5 49.5) (layer "F.SilkS") (tstamp a4247e4d-3ccc-4eca-8e9b-dc5f5eb1385b)
     (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "v0.2" (at 161 47.25) (layer "F.SilkS") (tstamp fa9bc44f-6c97-4038-af7e-d2242184bdd6)
+    (effects (font (size 1 1) (thickness 0.15)) (justify right))
   )
 
   (segment (start 129.804999 81.334999) (end 129.804999 65.414999) (width 0.25) (layer "F.Cu") (net 3) (tstamp 1206dfcc-2dce-4051-920f-978c2ed766f7))
