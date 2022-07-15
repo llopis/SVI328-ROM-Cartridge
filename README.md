@@ -2,7 +2,7 @@
 Generic 32KB ROM cartridge for the Spectravideo 328.
 
 Motivated by the SVI328-to-MSX cartridge, but it should work for any cartridge ROM.
-[TODO: Video link here]
+https://youtu.be/hb8DHYpg0qM
 
 ![image](/Hardware/Images/CircuitDiagram.png)
 
